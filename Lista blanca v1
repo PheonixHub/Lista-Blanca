@@ -2,7 +2,7 @@ repeat wait() until game and game.Players and game.Players.LocalPlayer
 
 local player = game.Players.LocalPlayer
 local userId = player.UserId
-local whitelistURL = "https://pastebin.com/raw/67Bgxp1c"
+local whitelistURL = "https://raw.githubusercontent.com/PheonixHub/Whiteliste-v2/refs/heads/main/Id"
 
 local success, result = pcall(function()
     return game:HttpGet(whitelistURL)
