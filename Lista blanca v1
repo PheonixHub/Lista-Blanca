@@ -27,7 +27,7 @@ if success then
         })
         -- Aquí cargas tu script real:
         
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ben1x1x1x1x/V2/refs/heads/main/BeamedV2FreeLoader"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PheonixHub/SC_CrisAutoFuerzaOP/refs/heads/main/Auto%20fuerza%20SC"))()
     else
         print("❌ No estás en la whitelist.")
         -- Mensaje al jugador
